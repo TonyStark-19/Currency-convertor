@@ -4,12 +4,23 @@ A **Currency Converter** web application that allows users to convert values bet
 
 ---
 
+## Deployment
+
+The project is live at: [Currency Converter](https://tonystark-19.github.io/Currency-convertor/)
+
+## Screenshot
+
+![Currency Converter Screenshot](Screenshot/image.png)
+
+---
+
 ## Features
 
 - Convert between multiple currencies.
 - Real-time exchange rates.
-- Simple UI for ease of use.
+- Simple and responsive UI for ease of use across all devices.
 - Error handling for invalid inputs or network issues.
+- **Deployed on GitHub Pages** for easy access and demonstration.
 
 ---
 
@@ -19,6 +30,7 @@ A **Currency Converter** web application that allows users to convert values bet
 - **CSS**: For styling and making it responsive.
 - **JavaScript**: For implementing dynamic functionality.
 - **API**: For fetching real-time exchange rates.
+- **GitHub Pages**: For deployment.
 
 ---
 
@@ -27,6 +39,6 @@ A **Currency Converter** web application that allows users to convert values bet
 1. **Enter the amount** you want to convert.
 2. **Select the source currency** from the dropdown.
 3. **Select the target currency** from the dropdown.
-4. Click **Convert** to see the result.
+4. Click **Get Exchange Rate** to see the result.
 
 ---
