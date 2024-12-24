@@ -16,7 +16,7 @@ body {
     padding: 2rem;
     border-radius: 1rem;
     min-height: 40vh;
-    width: 47vh;
+    width: 350px;
 }
 
 .container h2 {
@@ -99,10 +99,11 @@ form button {
 
 /* Responsiveness */
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
 
     .container {
         padding: 1.5rem;
+        width: 300px;
     }
 
     .container h2 {
@@ -113,7 +114,7 @@ form button {
 @media (max-width: 390px) {
 
     .container {
-        width: 40vh;
+        width: 250px;
     }
 
     .dropdown {
@@ -132,7 +133,7 @@ form button {
 @media (max-width: 360px) {
 
     .container {
-        width: 35vh;
+        width: 230px;
     }
 
     .container h2 {
