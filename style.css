@@ -113,7 +113,7 @@ form button {
 @media (max-width: 390px) {
 
     .container {
-        width: 45vh;
+        width: 40vh;
     }
 
     .dropdown {
@@ -132,7 +132,7 @@ form button {
 @media (max-width: 360px) {
 
     .container {
-        width: 38vh;
+        width: 35vh;
     }
 
     .container h2 {
