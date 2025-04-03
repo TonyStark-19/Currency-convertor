@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 body {
@@ -95,6 +96,9 @@ form button {
     color: #fff;
     font-size: 1.15rem;
     cursor: pointer;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* Responsiveness */
