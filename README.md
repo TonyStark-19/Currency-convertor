@@ -4,13 +4,16 @@ A **Currency Converter** web application that allows users to **convert values b
 
 ---
 
-🚀 **Live Demo:** [Currency Converter](https://tonystark-19.github.io/Currency-convertor/)  
+## 📸 Screenshots
+
+### Homepage :
+![Homepage Screenshot](Screenshot/image.png)
 
 ---
 
-## 📸 Screenshot  
+## 🌐 Live Demo
 
-![Currency Converter Screenshot](Screenshot/image.png)  
+You can view the live demo of this project here: [Currency Converter](https://tonystark-19.github.io/Currency-convertor/)  
 
 ---
 
@@ -34,6 +37,24 @@ A **Currency Converter** web application that allows users to **convert values b
 
 ---
 
+## 🛠️ How to Use
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/TonyStark-19/Currency-convertor.git
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd Currency-convertor
+   ```
+
+3. Open `index.html` in your browser.
+
+---
+
 ## 📝 How to Use  
 
 1️⃣ **Enter the amount** you want to convert.  
@@ -41,6 +62,8 @@ A **Currency Converter** web application that allows users to **convert values b
 3️⃣ **Select the target currency** from the dropdown.  
 4️⃣ Click **"Get Exchange Rate"** to see the converted amount.  
 
+Enjoy using the **Currency Converter**! 🌟💸
+
 ---
 
-Enjoy using the **Currency Converter**! 🌟💸  
+  Made with ❤️ by Aditya chandel
