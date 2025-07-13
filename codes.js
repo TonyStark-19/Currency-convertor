@@ -1,3 +1,4 @@
+// country code list
 const countryList = {
     AED: "AE",
     AFN: "AF",

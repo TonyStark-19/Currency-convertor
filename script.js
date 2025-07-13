@@ -1,3 +1,4 @@
+// API URL
 const BASE_URL =
     "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies";
 
@@ -7,6 +8,7 @@ const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg");
 
+// dropdown
 for (let select of dropdowns) {
     for (currCode in countryList) {
         let newOption = document.createElement("option");
@@ -25,6 +27,7 @@ for (let select of dropdowns) {
     });
 }
 
+// Exchange rate
 const updateExchangeRate = async () => {
     let amount = document.querySelector(".amount input");
     let amtVal = amount.value;
@@ -42,6 +45,7 @@ const updateExchangeRate = async () => {
     msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 };
 
+// Update flag of country
 const updateFlag = (element) => {
     let currCode = element.value;
     let countryCode = countryList[currCode];
@@ -50,11 +54,13 @@ const updateFlag = (element) => {
     img.src = newSrc;
 };
 
+// get exhange rate buttom
 btn.addEventListener("click", (evt) => {
     evt.preventDefault();
     updateExchangeRate();
 });
 
+// call update exchange rate when window loads (reset)
 window.addEventListener("load", () => {
     updateExchangeRate();
 });

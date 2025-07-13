@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     user-select: none;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -12,20 +15,28 @@ body {
     background-color: #f4e4ba;
 }
 
+/* container */
+
 .container {
     background-color: #fff;
     padding: 2rem;
     border-radius: 1rem;
     min-height: 40vh;
-    width: 350px;
+    width: 400px;
 }
+
+/* heading */
 
 .container h2 {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    font-weight: 600;
 }
+
+/* form */
 
 form {
     margin: 2rem 0 1rem 0;
@@ -40,6 +51,8 @@ input {
     border-radius: 0.75rem;
 }
 
+/* input box */
+
 form input {
     border: 1px solid lightgray;
     font-size: 1rem;
@@ -51,6 +64,8 @@ form input {
 form input::placeholder {
     font-size: 1.1rem;
 }
+
+/* dropdown */
 
 .dropdown {
     display: flex;
@@ -64,6 +79,11 @@ form input::placeholder {
     margin-top: 1rem;
 }
 
+.from p {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
 .select-container {
     display: flex;
     justify-content: center;
@@ -72,6 +92,7 @@ form input::placeholder {
     border: 1px solid lightgray;
     width: 6.5rem;
     height: 2.5rem;
+    cursor: pointer;
 }
 
 .select-container img {
@@ -84,11 +105,15 @@ form input::placeholder {
     width: auto;
 }
 
+/* conversion */
+
 .msg {
     margin: 2rem 0 2rem 0;
-    font-size: 17px;
+    font-size: 18px;
     letter-spacing: 1px;
 }
+
+/* get conversion button */
 
 form button {
     height: 3rem;
@@ -96,29 +121,48 @@ form button {
     color: #fff;
     font-size: 1.15rem;
     cursor: pointer;
-    user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ca1ba1;
 }
 
 /* Responsiveness */
 
-@media (max-width: 470px) {
+@media (max-width: 520px) {
 
     .container {
         padding: 1.5rem;
+        width: 350px;
+    }
+
+    .container h2 {
+        font-size: 25px;
+    }
+
+    form {
+        margin: 1.5rem 0 1rem 0;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .container {
         width: 300px;
     }
 
     .container h2 {
-        font-size: 20px;
+        font-size: 21px;
     }
 }
 
 @media (max-width: 390px) {
 
     .container {
-        width: 250px;
+        width: 280px;
     }
 
     .dropdown {
@@ -137,7 +181,7 @@ form button {
 @media (max-width: 360px) {
 
     .container {
-        width: 230px;
+        width: 250px;
     }
 
     .container h2 {
