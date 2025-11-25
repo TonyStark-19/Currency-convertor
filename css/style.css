@@ -136,7 +136,7 @@ form button:hover {
 
     .container {
         padding: 1.5rem;
-        width: 350px;
+        width: 80%;
     }
 
     .container h2 {
@@ -150,20 +150,12 @@ form button:hover {
 
 @media (max-width: 440px) {
 
-    .container {
-        width: 300px;
-    }
-
     .container h2 {
         font-size: 21px;
     }
 }
 
 @media (max-width: 390px) {
-
-    .container {
-        width: 280px;
-    }
 
     .dropdown {
         flex-direction: column;
@@ -179,10 +171,6 @@ form button:hover {
 }
 
 @media (max-width: 360px) {
-
-    .container {
-        width: 250px;
-    }
 
     .container h2 {
         font-size: 18px;
