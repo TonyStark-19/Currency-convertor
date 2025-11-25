@@ -1,13 +1,14 @@
 # 🌎💱 Currency Converter  
 
-A **Currency Converter** web application that allows users to **convert values between different currencies in real-time**. This project is built with **HTML, CSS, and JavaScript**, utilizing a **currency exchange API** to fetch up-to-date conversion rates.  
+A **Currency Converter** web application that allows users to **convert values between different currencies in real-time**. <br />
+This project is built with **HTML, CSS, and JavaScript**, utilizing a **currency exchange API** to fetch up-to-date conversion rates.  
 
 ---
 
 ## 📸 Screenshots
 
 ### Homepage :
-![Homepage Screenshot](Screenshot/image.png)
+![Homepage Screenshot](images/Screenshot/image.png)
 
 ---
 
@@ -19,11 +20,12 @@ You can view the live demo of this project here: [Currency Converter](https://to
 
 ## ✨ Features  
 
-✅ **Convert between multiple currencies** with ease.  
-⏳ **Real-time exchange rates** fetched from an API.  
-📱 **Responsive design** for seamless use on all devices.  
-⚠️ **Error handling** for invalid inputs or network issues.  
-🚀 **Deployed on GitHub Pages** for easy access.  
+- 💱 Convert between 100+ currencies
+- 🔄 Real-time exchange rates from API
+- 📱 Fully responsive UI
+- ⚠️ Handles invalid inputs & network issues gracefully
+- 🚀 Fast & lightweight, no frameworks used
+- 🌐 Deployed on GitHub Pages
 
 ---
 
@@ -62,8 +64,12 @@ You can view the live demo of this project here: [Currency Converter](https://to
 3️⃣ **Select the target currency** from the dropdown.  
 4️⃣ Click **"Get Exchange Rate"** to see the converted amount.  
 
-Enjoy using the **Currency Converter**! 🌟💸
+---
+
+## ⭐ Feedback
+
+If you like this project, consider giving it a ⭐ on GitHub — it motivates me to create more!
 
 ---
 
-  Made with ❤️ by Aditya chandel
+Made with ❤️ by Aditya chandel
