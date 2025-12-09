@@ -1,5 +1,16 @@
 # 🌎💱 Currency Converter  
 
+![Repo Size](https://img.shields.io/github/repo-size/TonyStark-19/Currency-convertor?color=yellow)
+![Stars](https://img.shields.io/github/stars/TonyStark-19/Currency-convertor?color=blue)
+![Forks](https://img.shields.io/github/forks/TonyStark-19/Currency-convertor?color=blueviolet)
+![Last Commit](https://img.shields.io/github/last-commit/TonyStark-19/Currency-convertor?color=brightgreen)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![API](https://img.shields.io/badge/Uses-Exchange%20API-blueviolet)
+![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-black?logo=github)
+
 A **Currency Converter** web application that allows users to **convert values between different currencies in real-time**. <br />
 This project is built with **HTML, CSS, and JavaScript**, utilizing a **currency exchange API** to fetch up-to-date conversion rates.  
 
