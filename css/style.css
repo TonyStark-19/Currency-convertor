@@ -16,7 +16,6 @@ body {
 }
 
 /* container */
-
 .container {
     background-color: #fff;
     padding: 2rem;
@@ -26,7 +25,6 @@ body {
 }
 
 /* heading */
-
 .container h2 {
     text-transform: uppercase;
     display: flex;
@@ -37,7 +35,6 @@ body {
 }
 
 /* form */
-
 form {
     margin: 2rem 0 1rem 0;
 }
@@ -52,7 +49,6 @@ input {
 }
 
 /* input box */
-
 form input {
     border: 1px solid lightgray;
     font-size: 1rem;
@@ -66,7 +62,6 @@ form input::placeholder {
 }
 
 /* dropdown */
-
 .dropdown {
     display: flex;
     justify-content: space-between;
@@ -106,7 +101,6 @@ form input::placeholder {
 }
 
 /* conversion */
-
 .msg {
     margin: 2rem 0 2rem 0;
     font-size: 18px;
@@ -114,7 +108,6 @@ form input::placeholder {
 }
 
 /* get conversion button */
-
 form button {
     height: 3rem;
     background-color: #af4d98;
@@ -131,9 +124,7 @@ form button:hover {
 }
 
 /* Responsiveness */
-
 @media (max-width: 520px) {
-
     .container {
         padding: 1.5rem;
         width: 80%;
@@ -149,14 +140,12 @@ form button:hover {
 }
 
 @media (max-width: 440px) {
-
     .container h2 {
         font-size: 21px;
     }
 }
 
 @media (max-width: 390px) {
-
     .dropdown {
         flex-direction: column;
     }
@@ -171,7 +160,6 @@ form button:hover {
 }
 
 @media (max-width: 360px) {
-
     .container h2 {
         font-size: 18px;
     }

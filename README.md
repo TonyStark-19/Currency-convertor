@@ -11,7 +11,8 @@
 ![API](https://img.shields.io/badge/Uses-Exchange%20API-blueviolet)
 ![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-black?logo=github)
 
-A **Currency Converter** web application that allows users to **convert values between different currencies in real-time**. <br />
+A **Currency Converter** web application that allows users to **convert values between different currencies in real-time**.
+
 This project is built with **HTML, CSS, and JavaScript**, utilizing a **currency exchange API** to fetch up-to-date conversion rates.  
 
 ---
@@ -29,28 +30,32 @@ You can view the live demo of this project here: [Currency Converter](https://to
 
 ---
 
-## ✨ Features  
+## ✨ Features
 
-- 💱 Convert between 100+ currencies
-- 🔄 Real-time exchange rates from API
-- 📱 Fully responsive UI
-- ⚠️ Handles invalid inputs & network issues gracefully
-- 🚀 Fast & lightweight, no frameworks used
-- 🌐 Deployed on GitHub Pages
-
----
-
-## 🛠️ Technologies Used  
-
-- **🖥️ HTML** – Structure of the web app.  
-- **🎨 CSS** – Styling & responsiveness.  
-- **⚡ JavaScript** – Dynamic functionality.  
-- **🌍 API** – Fetches live exchange rates.  
-- **📡 GitHub Pages** – For hosting & deployment.  
+| Feature | Description |
+|:---|:---|
+| **Multi-Currency Conversion** | Supports conversion between 100+ international currencies. |
+| **Real-Time Exchange Rates** | Fetches up-to-date currency exchange rates through an external API. |
+| **Fully Responsive Design** | Provides a seamless experience across desktops, tablets, and smartphones. |
+| **Error Handling** | Handles invalid inputs and network issues gracefully with appropriate feedback. |
+| **Fast & Lightweight** | Built using vanilla HTML, CSS, and JavaScript without relying on external frameworks. |
+| **GitHub Pages Deployment** | Hosted and deployed using GitHub Pages for easy access and availability. |
 
 ---
 
-## 🛠️ How to Use
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|:---|:---|
+| **HTML** | Structures the web application's content and layout. |
+| **CSS** | Handles styling, layouts, and responsive design. |
+| **JavaScript** | Implements dynamic functionality, currency conversion logic, and API integration. |
+| **Exchange Rate API** | Fetches real-time currency exchange rates for accurate conversions. |
+| **GitHub Pages** | Hosts and deploys the web application. | 
+
+---
+
+## 🛠️ How to Install
 
 1. Clone the repository:
 
@@ -68,12 +73,14 @@ You can view the live demo of this project here: [Currency Converter](https://to
 
 ---
 
-## 📝 How to Use  
+## 📝 How to Use
 
-1️⃣ **Enter the amount** you want to convert.  
-2️⃣ **Select the source currency** from the dropdown.  
-3️⃣ **Select the target currency** from the dropdown.  
-4️⃣ Click **"Get Exchange Rate"** to see the converted amount.  
+| Step | Instructions |
+|:---:|:---|
+| **1** | Enter the amount you want to convert. |
+| **2** | Select the source currency from the dropdown menu. |
+| **3** | Select the target currency from the dropdown menu. |
+| **4** | Click the **Get Exchange Rate** button to view the converted amount. |
 
 ---
 
